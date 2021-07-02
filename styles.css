@@ -1,7 +1,13 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.signinbutton {
+    border-radius: 3px;
+    background-color: rgb(69, 133, 244);
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.95;
+}
+
+li {
+    display: inline;
 }
 
 ul {
@@ -10,8 +16,41 @@ ul {
     padding: 0;
 }
 
-.search {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.logo {
+    align-content: center;
+}
+
+.searchbar {
+    
+}
+
+.searchbuttons {
+    
+}
+
+
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    float: right;
 }
