@@ -10,11 +10,6 @@ li {
     display: inline;
 }
 
-ul {
-    display: flex;
-    justify-content: space-evenly;   
-}
-
 a:link, a:visited, a:hover, a:active {
     color: grey;
     text-decoration: none;
@@ -72,6 +67,7 @@ input[type="text"]:focus {
     bottom: 0;
     width: 100%;
     color: rgba(0,0,0,.54);
+    height: 47px;
 }
 
 .containerlogo {
@@ -112,6 +108,8 @@ input[type="text"]:focus {
 .header {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 .spacebarcontainer {
@@ -142,6 +140,7 @@ input[type="text"]:focus {
 .miclogocontainer {
     width: 40px;
     height: 44px;
+    margin-left: 15px
 }
 
 .miclogo {
