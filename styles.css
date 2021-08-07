@@ -32,6 +32,11 @@ ul {
     height: 44px;
     padding: 0;
     margin: 0;
+    border: 0px;
+}
+
+input[type="text"]:focus {
+    outline: 0;
 }
 
 .searchbuttons {
@@ -87,7 +92,7 @@ ul {
 }
 
 .space {
-    width: 20px;
+    width: 15px;
 }
 
 .searchbarspace {
@@ -114,16 +119,14 @@ ul {
 }
 
 .searchlogo {
-    margin-top: 15px;
+    margin-top: 12px;
     width: 20px;
     height: 20px;
 }
 
 .searchlogocontainer {
-    width: 44px;
+    width: 30px;
     height: 26px;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .miclogocontainer {
@@ -132,6 +135,7 @@ ul {
 }
 
 .miclogo {
+    margin-top: 12px;
     width: 24px;
     height: 24px;
 }
