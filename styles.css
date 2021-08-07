@@ -12,8 +12,16 @@ li {
 
 ul {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .main {
@@ -38,9 +46,6 @@ ul {
 
 input[type="text"]:focus {
     outline: 0;
-}
-
-.searchbuttons {
 }
 
 .googlesearchbutton {
