@@ -112,3 +112,26 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+.searchlogo {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.searchlogocontainer {
+    width: 44px;
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.miclogocontainer {
+    width: 40px;
+    height: 44px;
+}
+
+.miclogo {
+    width: 24px;
+    height: 24px;
+}
